@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(90deg, #e66465, #7b3881);
+}
+
+.container {
+  margin-top: 50px;
+  width: 600px;
+  height: 700px;
+  background: #ffe5e5;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-seri f;
+}
+
+div > button {
+  padding: 10px 40px;
+  border-radius: 25px;
+  border: none;
+  margin: 30px;
+  font-size: 15px;
+  background: red;
+  color: #fff;
+  transition: all ease 0.55s;
+}
+
+button:hover {
+  transform: translateY(-5px);
+  filter: drop-shadow(0 0 1em rgb(173, 12, 12));
+}
+
+.accept {
+  box-sizing: border-box;
+  text-align: center;
+  display: none;
+  height: 220px;
+  border-radius: 25px;
+  color: #fff;
+  transition: all ease 0.55s;
+}
+
+h3 {
+  color: #121212;
+  margin-top: 15px;
+}
+
+p {
+  color: #121212;
+  margin-bottom: 15px;
+}
+.accept img {
+  background: #fff;
+  height: 150px;
+  margin: 0px 20px 0px 20px;
+}
+
+@media screen and (min-width: 200px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background: linear-gradient(90deg, #e66465, #7b3881);
+  }
+
+  .container {
+    margin-top: 50px;
+    width: 340px;
+    height: 550px;
+    background: #ffe5e5;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-seri f;
+    font-size: 10px;
+  }
+
+  .container > img {
+    width: 250px;
+  }
+
+  div > button {
+    border-radius: 25px;
+    border: none;
+    margin: 30px;
+    font-size: 9px;
+    background: red;
+    color: #fff;
+    transition: all ease 0.55s;
+  }
+
+  button:hover {
+    transform: translateY(-5px);
+    filter: drop-shadow(0 0 1em rgb(173, 12, 12));
+  }
+
+  .accept {
+    box-sizing: border-box;
+    text-align: center;
+    display: none;
+    height: 100px;
+    border-radius: 25px;
+    color: #fff;
+    transition: all ease 0.55s;
+  }
+
+  h3 {
+    color: #121212;
+    margin-top: 15px;
+    font-size: 10px;
+  }
+
+  p {
+    font-size: 10px;
+    color: #121212;
+    margin-bottom: 15px;
+  }
+  .accept img {
+    background: #fff;
+    height: 70px;
+    margin: 0px 20px 0px 20px;
+  }
+}
